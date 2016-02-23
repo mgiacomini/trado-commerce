@@ -34,7 +34,7 @@ end
 group :development, :test do
   gem 'jazz_hands', github: 'nixme/jazz_hands', branch: 'bring-your-own-debugger'
   gem 'pry-byebug'
-  gem 'mysql2'
+#  gem 'mysql2'
 end
 
 # Assets
@@ -47,6 +47,7 @@ gem 'jquery-rails'
 gem 'uglifier', '>= 1.0.3'
 gem 'asset_sync'
 gem 'sprockets', '2.11.0'
+gem 'jquery-scrollto-rails'
 
 # AJAX file upload
 gem 'remotipart', '~> 1.2'
